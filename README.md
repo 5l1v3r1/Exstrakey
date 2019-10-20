@@ -1,5 +1,5 @@
 # Exstrakey
-![](./Images/Key.png)
+![](./Images/Keys.png)
 # Usage
 ```
 pkg update && pkg upgrade
