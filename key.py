@@ -1,6 +1,7 @@
 #!/usr/bin/python
-# Life Of Programmer
-# Coded By Nedi Senja
+# Exstrakey
+# Coded By Senja
+# Github: github.com/thesuxtynine/Exstrakey
 
 import os, sys, time
 from time import sleep
@@ -26,13 +27,15 @@ logo = """
 \x1b[94;2;3m     ██║   ██╔══╝  ██╔══██╗\x1b[93;2;3m██║╚██╔╝██║██║   ██║ ██╔██╗
 \x1b[94;2;3m     ██║   ███████╗██║  ██║\x1b[93;2;3m██║ ╚═╝ ██║╚██████╔╝██╔╝ ██╗
 \x1b[94;2;3m     ╚═╝   ╚══════╝╚═╝  ╚═╝\x1b[93;2;3m╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝
+\x1b[0;4;37m  ○● 千尺丨乇几ᗪ丂 ㄒ卄乇 Ꮆ尺卂ㄚ 卄卂ㄒ 爪ㄚ ㄒ乇卂爪 ●○
 """
 print (logo)
 print ('')
 
 print
-print ('\x1b[0m[\x1b[92;1m#\x1b[0m] \x1b[0mShorcut for help you')
-print ('\x1b[0m[\x1b[95;1m*\x1b[0m] \x1b[0mCoded by Nedi Senja')
+print ('\x1b[0m[\x1b[94;1m#\x1b[0m] \x1b[0mShorcut For Help You')
+print ('\x1b[0m[\x1b[93;1m*\x1b[0m] \x1b[0mCoded by Senja')
+print ('\x1b[0m[\x1b[96;1m&\x1b[0m] \x1b[0mMy Github: @thesixtynine')
 time.sleep(1)
 print ('')
 
