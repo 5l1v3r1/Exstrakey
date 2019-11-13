@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # Exstrakey
-# Coded By Senja
-# Github: github.com/thesuxtynine/Exstrakey
+# Coded by Senja
+# Github: github.com/thesixtynine/Exstrakey
 
 import os, sys, time
 from time import sleep
@@ -19,20 +19,15 @@ def write(z):
         sys.stdout.flush()
         time.sleep(0.03)
 
-logo = """
-
-\x1b[94;2;3m  ████████╗███████╗██████╗ \x1b[93;2;3m███╗   ███╗██╗   ██╗██╗  ██╗
-\x1b[94;2;3m  ╚══██╔══╝██╔════╝██╔══██╗\x1b[93;2;3m████╗ ████║██║   ██║╚██╗██╔╝
-\x1b[94;2;3m     ██║   █████╗  ██████╔╝\x1b[93;2;3m██╔████╔██║██║   ██║ ╚███╔╝
-\x1b[94;2;3m     ██║   ██╔══╝  ██╔══██╗\x1b[93;2;3m██║╚██╔╝██║██║   ██║ ██╔██╗
-\x1b[94;2;3m     ██║   ███████╗██║  ██║\x1b[93;2;3m██║ ╚═╝ ██║╚██████╔╝██╔╝ ██╗
-\x1b[94;2;3m     ╚═╝   ╚══════╝╚═╝  ╚═╝\x1b[93;2;3m╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝
-\x1b[0;4;37m  ○● 千尺丨乇几ᗪ丂 ㄒ卄乇 Ꮆ尺卂ㄚ 卄卂ㄒ 爪ㄚ ㄒ乇卂爪 ●○
+logo = """\033[77;1m
+       _____         _              _____
+      |   __|_ _ ___| |_ ___ ___   |  |  |___ _ _
+      |   __|_'_|_ -|  _|  _| .'|  |    -| -_| | |
+      |_____|_,_|___|_| |_| |__,|  |__|__|___|_  |
+                                             |___|
 """
 print (logo)
-print ('')
 
-print
 print ('\x1b[0m[\x1b[94;1m#\x1b[0m] \x1b[0mShorcut For Help You')
 print ('\x1b[0m[\x1b[93;1m*\x1b[0m] \x1b[0mCoded by Senja')
 print ('\x1b[0m[\x1b[96;1m&\x1b[0m] \x1b[0mMy Github: @thesixtynine')
