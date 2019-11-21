@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # Exstrakey
 # Coded by Senja
-# Github: github.com/thesixtynine/Exstrakey
+# Github: github.com/thedarksec/Exstrakey
 
 import os, sys, time
 from time import sleep
@@ -30,7 +30,7 @@ print (logo)
 
 print ('\x1b[0m[\x1b[94;1m#\x1b[0m] \x1b[0mShorcut For Help You')
 print ('\x1b[0m[\x1b[93;1m*\x1b[0m] \x1b[0mCoded by Senja')
-print ('\x1b[0m[\x1b[96;1m&\x1b[0m] \x1b[0mMy Github: @thesixtynine')
+print ('\x1b[0m[\x1b[96;1m&\x1b[0m] \x1b[0mMy Github: @thedarksec')
 time.sleep(1)
 print ('')
 
