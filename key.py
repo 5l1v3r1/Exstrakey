@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 # Exstrakey
 # Coded by Senja
 # Github: github.com/thedarksec/Exstrakey
@@ -12,6 +13,14 @@ def banner():
     time.sleep(1)
 
 banner()
+
+def loads():
+    tix = [
+     '.   ', '..  ', '... ']
+    for o in tix:
+        print '\r\x1b[0m[\x1b[94;1m\xe2\x97\x8f\x1b[0m] \x1b[0mLoading ' + o,
+        sys.stdout.flush()
+        time.sleep(1)
 
 def write(z):
     for e in z + '\n':
@@ -32,11 +41,13 @@ print ('\x1b[0m[\x1b[94;1m#\x1b[0m] \x1b[0mShorcut For Help You')
 print ('\x1b[0m[\x1b[93;1m*\x1b[0m] \x1b[0mCoded by Senja')
 print ('\x1b[0m[\x1b[96;1m&\x1b[0m] \x1b[0mMy Github: @thedarksec')
 time.sleep(1)
-print ('')
-
+print
+loads()
+print
+print
 write ('\x1b[0m[\x1b[91;1m!\x1b[0m] \x1b[77;1mChecking ...')
 print ('\x1b[0m[\x1b[92;1m+\x1b[0m] \x1b[0mProcess Reloads')
-print ('')
+print
 sleep (3)
 write ('\x1b[0m[\x1b[93;1m!\x1b[0m] \x1b[77;1mMaking termux properties directory ...')
 sleep (3)
@@ -45,7 +56,7 @@ try:
 except:
       pass
 print ('\x1b[0m[\x1b[94;1m+\x1b[0m] \x1b[0mSuccess')
-print ('')
+print
 sleep (3)
 write ('\x1b[0m[\x1b[95;1m!\x1b[0m] \x1b[77;1mMaking setup file ...')
 sleep (1)
@@ -56,12 +67,12 @@ control.write(key)
 control.close()
 sleep (1)
 print ('\x1b[0m[\x1b[96;1m+\x1b[0m] \x1b[0mSuccess')
-print ('')
+print
 sleep (3)
 write ('\x1b[0m[\x1b[97;1m!\x1b[0m] \x1b[77;1mSetting up ...')
 sleep (1)
 print ('\x1b[0m[\x1b[90;1m+\x1b[0m] \x1b[0mSuccesfully')
 os.system('termux-reload-settings')
-print ('')
-print ('')
+print
+print
 exit(1)
