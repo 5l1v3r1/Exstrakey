@@ -1,14 +1,14 @@
 #### Screenshot:
-![](./Screenshot.png)
+![](./Skrinsut.png)
 #### Cara Menginstall:
 ```
 pkg update && pkg upgrade
 apt-get install git
-apt-get install python2
+apt-get install python
 git clone https://github.com/stepbystepexe/Exstrakey
 cd Exstrakey
 ls
-python2 extrakey.py
+python3 extrakey.py
 ```
 #### Paypal:
 https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLKRT5QXXFJY4&source=url
