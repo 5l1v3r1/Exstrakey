@@ -1,5 +1,5 @@
 # Exstrakey:
-*Memnaplikan key shortcut pada (termux)*
+*Memnaplikan key shortcut pada home (termux)*
 #### Screenshot:
 ![](./Skrinsut.png)
 #### Cara Menginstall:
