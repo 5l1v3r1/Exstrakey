@@ -1,5 +1,5 @@
 <h1 align="center">Exstrakey</h1>
-<h5 align="center">Tool ini untuk memnaplikan key shortcut pada home (termux)</h5>
+<h5 align="center">Tool ini berfungsi untuk menaplikan key shortcut pada termux.</h5>
 
 <p align="center">
   <a href="https://www.python.org">
